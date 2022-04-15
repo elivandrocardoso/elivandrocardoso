@@ -1,3 +1,23 @@
+""" Essa linha de código é um script padrão, o cliente irá ligar na central de atendimento e o atendendente
+irá fazer perguntas que estão na tela, preenchendo os campos com sim('s') ou não('n') e o programa irá retornar
+com o procedimento que o atendente irá informar para o cliente.
+
+OBS: Sou iniciante na linguagem, é meu primeiro exercícios, fiquei horas tentando resolver, se tiver erros aceito feedbacks.
+Em breve vou traduzir as linhas que está em português para o inglês, como estava praticando então não quis no momento se preocupar em
+colocar para o inglês.
+
+This line of code is a standard script, the customer will call the call center and the attendant
+will ask questions that are on the screen, filling the fields with yes('s') or no('n') and the program will return
+with the procedure that the attendant will inform the customer.
+
+OBS: I'm a beginner in the language, it's my first exercise, I spent hours trying to solve it, if there are errors I accept feedbacks.
+Soon I will translate the lines that are in Portuguese into English, as I was practicing so I didn't want to worry about
+put into English.
+
+"""
+
+
+
 """
 Diretrizes de procedimento.
 """
