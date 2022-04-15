@@ -1,0 +1,40 @@
+"""
+Diretrizes de procedimento.
+"""
+print('\n')
+
+print('**** Diretrizes de procedimento ****\n')
+
+print('************ Bem vindo! ************\n')
+
+pergunta1 = 'O cliente forneceu um número de pedido ou endereço de e-mail [s/n]?  '
+resposta1 = 'Envie o e-mail "Conta não encontrada - "solicitação de mais informações."'
+
+pergunta2 = 'Algum item foi danificado durante o transporte [s/n]? '
+resposta2 = 'Envie o e-mail "Atualização de rastreamento"'
+
+pergunta3 = 'O cliente forneceu fotos dos danos [s/n] ? '
+resposta3 = 'Crie uma solicitação de troca de pedido e envie o e-mail "Troca de item solicitada".'
+
+
+positivo = 's'
+negativo = 'n'
+
+if input(pergunta1) == positivo:
+    pergunta2 = input(pergunta2)
+    if pergunta1 == negativo:
+        print(resposta1)
+    elif pergunta2 == negativo:
+        print(resposta2)
+    elif pergunta2 == positivo:
+        pergunta3 = input(pergunta3)
+    elif pergunta3 == positivo:
+        print(resposta3)
+    else:  #pergunta3 == negativo:
+        print(resposta3)
+else:
+    print(resposta1)
+
+
+
+
