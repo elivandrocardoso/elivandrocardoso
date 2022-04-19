@@ -1,0 +1,9 @@
+
+"""
+Estou aprendendo Python e todo iniciante começa escrevendo o tradicional primeiro programa 'Hello, world'!
+
+I'm learning Python and every beginner starts by writing the traditional first program 'Hello, world'!
+
+"""
+
+print('Hello, world!')
