@@ -1,0 +1,8 @@
+comprimento = float(input('Digite comprimento: '))
+altura = float(input('Digite altura: '))
+valor = float(input('Digite o valor por metro: '))
+
+total = comprimento * altura * valor
+
+print(f'O comprimento é de {comprimento} metros, {altura} de altura e o valor por metro é de R$ {valor:.2f} por metro,'
+      f'valor total ficou em {total:.2f}')
