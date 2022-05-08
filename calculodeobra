@@ -1,3 +1,7 @@
+# Mestre de obra quer inserir valores de metragem e valor por metro e passar o preço final para o cliente.
+# Segue código.
+
+
 comprimento = float(input('Digite comprimento: '))
 altura = float(input('Digite altura: '))
 valor = float(input('Digite o valor por metro: '))
