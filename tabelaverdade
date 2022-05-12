@@ -4,19 +4,19 @@
 
 # Port and
 
-print(True and True)   # 1 1 1
-print(False and True)  # 0 1 0
-print(True and False)  # 1 0 0
-print(False and False) # 0 0 0
+print(True and True)   # 1 e 1 
+print(False and True)  # 0 e 1 
+print(True and False)  # 1 e 0 
+print(False and False) # 0 e 0 
 
 # Port or
 
-print(True or True)
-print(False or True)
-print(True or False)
-print(False or False)
+print(True or True)   # 1 ou 1 
+print(False or True)  # 0 ou 1
+print(True or False)  # 1 ou 0
+print(False or False) # 0 ou 0 
 
 # Port not
 
-print(not False)
-print(not True)
+print(not False)  # Negação, dado entra como False e retorna True
+print(not True)   # Negação, dado entra como True e retorna False
