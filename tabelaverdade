@@ -1,0 +1,22 @@
+# Truth table
+
+# Tabela verdade
+
+# Port and
+
+print(True and True)   # 1 1 1
+print(False and True)  # 0 1 0
+print(True and False)  # 1 0 0
+print(False and False) # 0 0 0
+
+# Port or
+
+print(True or True)
+print(False or True)
+print(True or False)
+print(False or False)
+
+# Port not
+
+print(not False)
+print(not True)
