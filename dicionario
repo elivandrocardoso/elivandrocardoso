@@ -1,0 +1,33 @@
+# Criado um dicionário com o nome Brasil e seu significado.
+
+# Basicamente o dicionário é como se fosse um dicionário aurélio, onde a chave é brasil e seu valor seu significado.
+
+# Segue exemplo!
+
+dicionario = {'brasil': 'adjetivo de dois gêneros\n'
+                        '1.'
+                        'relativo a brasa.\n'
+                        '2.'
+                        'adjetivo de dois gêneros e substantivo masculino'
+                        'relativo ao Brasil ou o que é seu natural ou habitante, esp. o indígena brasileiro ❖.p.us..\n'
+                        '3.'
+                        'adjetivo e substantivo de dois gêneros'
+                        'diz-se de ou a cor da madeira do pau-brasil e da brasilina.\n'
+                        '4.'
+                        'substantivo masculino'
+                        'química'
+                        'p.us. m.q. BRASILINA.\n'
+                        '5.'
+                        'substantivo masculino'
+                        'cosmético facial vermelho.\n'
+                        '6.'
+                        'as terras do Brasil.'
+                        'voar por esses b. afora\n'
+
+                        'Origem'
+                        '⊙ ETIM brasa + -il'}
+
+print(dicionario['brasil'])
+print((len(dicionario)))
+print(type(dicionario))
+
