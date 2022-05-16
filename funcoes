@@ -1,0 +1,15 @@
+def diga_ola(nome_da_pessoa):
+    return f'Olá {nome_da_pessoa}'
+
+
+resultado = diga_ola(nome_da_pessoa='Elivandro')
+
+print(diga_ola(nome_da_pessoa='Elivandro'))
+print(diga_ola(nome_da_pessoa='Elison'))
+print(diga_ola(nome_da_pessoa='Elisabete'))
+print(diga_ola(nome_da_pessoa='Kelly Cristina'))
+print(diga_ola(nome_da_pessoa='Barbara'))
+print(diga_ola(nome_da_pessoa='Elias'))
+
+
+print(resultado)
