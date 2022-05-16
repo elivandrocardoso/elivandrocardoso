@@ -7,6 +7,6 @@ def pega_valor(dicionario, chave):
         return None
     
    
-dic = {'nome': 'Elivandro' }
+dic = {'nome': 'Elivandro'}
 
 print(pega_valor(dic, 'nome'))
