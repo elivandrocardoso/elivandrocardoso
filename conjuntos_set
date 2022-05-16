@@ -1,0 +1,7 @@
+nomes_conjuntos = {'elivandro', 'elivandro', 'elison', 'elison', 'elisabete', 'kelly', 'elias', 'barbara'}
+nomes_listas = ['elivandro', 'elivandro', 'elison', 'elison', 'elisabete', 'kelly', 'elias', 'barbara']
+
+print(type(nomes_conjuntos))
+print(nomes_conjuntos)
+print(type(nomes_listas))
+print(nomes_listas)
