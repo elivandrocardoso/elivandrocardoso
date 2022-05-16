@@ -1,0 +1,15 @@
+nome = 'elivandro'
+idade = 39
+idade_texto = '39'
+
+
+print(type(idade))
+print(type(idade_texto))
+print(nome.upper())
+print(nome.title())
+print(nome.capitalize())
+print(nome.lower())
+print(nome.count(nome))
+
+# print(dir(idade))
+print(dir(idade_texto))
